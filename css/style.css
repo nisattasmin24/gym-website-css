@@ -15,7 +15,7 @@
     font-family: 'Miama', sans-serif;
 }
 
-/* Shared Style */
+/* Shared Style Section*/
 
 .display-flex{
     display: flex;
@@ -103,7 +103,7 @@ main > section{
     margin-top: 0;
 }
 
-/* Header Styles */
+/* Header Styles Section */
 
 header{
     margin-bottom: 0;
@@ -283,7 +283,7 @@ header{
     justify-content: center;
 }
 
-/* Change Your Habit Slyles */
+/* Change Your Habit Slyles Section*/
 
 .sec1{
     padding-top: 1.7rem;
