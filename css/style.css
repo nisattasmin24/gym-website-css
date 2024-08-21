@@ -1,0 +1,2436 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+@import url('https://fonts.cdnfonts.com/css/miama');
+
+
+.inter-font {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.miama-font{
+    font-family: 'Miama', sans-serif;
+}
+
+/* Shared Style */
+
+.display-flex{
+    display: flex;
+}
+
+.text-primary{
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.text-secondary{
+    color: rgba(255, 255, 255, 1);
+}
+
+.text-light-gray{
+    color: rgb(248, 249, 250);
+}
+
+.text-gray-white{
+    color: rgb(224, 224, 224);
+}
+
+.text-orange{
+    color: rgba(230, 83, 60, 1);
+}
+
+.text-light{
+    color: rgba(255, 255, 255, 0.1);
+}
+
+.bg-gradient{
+    background: linear-gradient(to right, #1e1e1e, #393939);
+    width: 90rem;
+    height: 45rem;
+}
+
+
+.btn-primary{
+    background-color: rgba(230, 83, 60, 1);
+    color: rgba(255, 255, 255, 1);
+    border-radius: 42px;
+    border: none;
+    font-size: 1.25rem;
+    font-weight: 600;
+    padding: 16px 46px;
+}
+
+.btn-secondary{
+    background-color: #101010;
+    color: rgba(255, 255, 255, 1);
+    border-radius: 42px;
+    border: none;
+    font-size: 1.25rem;
+    font-weight: 600;
+    padding: 16px 46px;
+}
+
+.btn-tersiary{
+    background-color: rgba(230, 83, 60, 1);
+    color: rgba(255, 255, 255, 1);
+    border-radius: 46px;
+    border: none;
+    font-size: 1.25rem;
+    font-weight: 400;
+    margin-left: 0;
+    width: 10rem;
+    height: 2.9rem;
+    text-align: center;
+    text-decoration: none;
+    list-style: none;
+    padding-right: 4px;
+    
+}
+
+main{
+    background-color: #000000;
+    width: 90rem;
+    height: 45rem;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+main > section{
+    margin-top: 0;
+}
+
+/* Header Styles */
+
+header{
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+/* Navbar Styles */
+
+.navbar{
+    max-width: 90rem;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 15rem;
+    padding-top: 1rem;
+    gap: 27rem;
+}
+
+.brand{
+    color: rgba(230, 83, 60, 1);
+    font-weight: 800;
+    font-size: 2.4rem;
+    margin-left: 8rem;
+}
+
+.nav-links{
+    border-radius: 40px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-collapse: collapse;
+    width: 40rem;
+    height: 3rem;
+    margin-left: 0;
+    padding-left: 0;
+    
+}
+
+.nav-item{
+    list-style: none;
+    margin-right: 3rem;
+    padding: 10px 0px 10px 45px;
+    margin-left: 0;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-link{
+    text-decoration: none;
+    font-size: 1.25rem;
+    font-weight: 400;
+    margin: 0 auto;
+}
+
+/* Hamburger icon styling */
+.hamburger {
+    display: none;
+    width: 3rem;
+    height: 3rem;
+    color: rgba(255, 255, 255, 1);
+    cursor: pointer;
+}
+
+/* Banner Styles */
+
+.banner{
+    display: grid;
+    grid-template-columns: 60% 40%;
+    gap: 3rem;
+}
+
+.banner-title{
+    margin-left: 8.5rem;
+    width: 33rem;
+    height: 17rem;
+    line-height: 6rem;
+    margin-bottom: 0;
+    font-size: 4.5rem;
+    font-weight: 700;
+
+}
+
+.banner-description{
+    margin-left: 8.5rem;
+    margin-top: 2.8rem;
+    margin-bottom: 2.5rem;
+    font-size: 1.25rem;
+    font-weight: 400;
+    width: 33rem;
+    height: 3rem;
+}
+
+#shape{
+    font-size: 7.2rem;
+    letter-spacing: 2px;
+    font-weight: 400;
+}
+
+.btn-pair{
+    margin-left: 8.5rem;
+    margin-top: 0;
+    margin-bottom: 0;
+    gap: 2.5rem;
+}
+
+.image-container{
+    position: relative;
+    display: inline-block;
+}
+
+.banner-image{
+    margin-right: 3rem;
+    margin-top: 0;
+    margin-bottom: 0;
+    max-width: 380px;
+    max-height: 600px;
+}
+
+.overlay-button{
+    position: absolute;
+    top: 12%;
+    left: -12%;
+}
+
+#workout-videos{
+    background-color: #393939;
+    width: 13.8rem;
+    height: 6.5rem;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    margin-left: 300px;
+    margin-top: 50px;
+}
+
+#video-number{
+    font-size: 2.4rem;
+    font-weight: 700;
+}
+
+#overlay-button{
+    position: absolute;
+    top: 72%;
+    left: -20%;
+}
+
+.rectangular-button{
+    display: inline-block;
+    position: relative;
+}
+
+.v-tutorial{
+    background-color: rgba(48, 48, 48, 0.54);
+    width: 13.8rem;
+    height: 6.5rem;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+}
+
+#v-number{
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.v-title{
+    color: rgba(239, 237, 232, 0.65);
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.circle{
+    background-color: rgba(230, 83, 60, 1);
+    border-radius: 50%;
+    border: none;
+    width: 2.5rem;
+    height: 2.5rem;
+    position: absolute;
+    top: 32%;
+    left: 8%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Change Your Habit Slyles */
+
+.sec1{
+    padding-top: 1.7rem;
+}
+
+.habit-content{
+    margin: 0 auto;
+    text-align: center;
+    width: 41.9rem;
+    height: 7.5rem;
+    
+}
+
+.habit-title{
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 6.5rem;
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.habit-description{
+    margin-top: 0;
+    padding-top: 1rem;
+    font-size: 1.25rem;
+    font-weight: 400;
+
+}
+
+.habit-container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    width: 14.43rem;
+    height: 17.13rem;
+    gap: 3.5rem;
+    margin-top: 9rem;
+    margin-left: 12rem;
+    margin-right: 12.4rem;
+}
+
+.habit-title{
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.card{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.card h5{
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin-top: 1rem;
+    margin-bottom: 0;
+}
+
+.card p{
+    margin-top: 6px;
+    font-size: 1rem;
+    font-weight: 400;
+    width: 14.13rem;
+    height: 4rem;
+}
+
+.move{
+    width: 11.25rem;
+    height: 11.25rem;
+    border-radius: 100px;
+    border: 4px solid rgba(255, 255, 255, 0.1);
+}
+
+/* Run an Extra Mile Easily Styles */
+
+.sec2{
+    padding-top: 8rem;
+    padding-bottom: 6rem;
+    background-color: #000000;
+}
+
+.run-card{
+    background-color: #222222;
+    width: 66.25rem;
+    height: 23.19rem;
+    margin-left: 11.87rem;
+    margin-right: 11.87rem;
+    border-radius: 18px;
+    border: none;
+    gap: 9rem;
+}
+
+.content{
+    width: 28rem;
+    height: 18rem;
+    padding-top: 0;
+    padding-bottom: 0;
+    margin-top: 0;
+    margin-left: 4rem;
+}
+
+.run-title{
+    font-size: 3rem;
+    font-weight: 700;
+    margin-top: 2.2rem;
+    margin-bottom: 0;
+}
+
+.run-description{
+    font-size: 1.25rem;
+    font-weight: 400;
+    margin-top: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+.running{
+    max-width: 366px;
+    max-height: 312px;
+    border-radius: 18px;
+    margin-top: 3.5rem;
+    margin-bottom: 2rem;
+    margin-right: 1.7rem;
+}
+
+/* Training and Exercises Styles */
+
+.sec3{
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 2px;
+    padding-bottom: 7rem;
+    background-color: #000000;
+}
+
+.training-content{
+    max-width: 671px;
+    max-height: 48px;
+    margin-left: 12rem;
+    padding-bottom: 10rem;
+}
+
+.training-title{
+    font-size: 3rem;
+    font-weight: 700;
+    padding-bottom: 0;
+    margin-bottom: 0;
+
+}
+
+.training-description{
+    font-size: 1.25rem;
+    font-weight: 400;
+    margin-bottom: 2.5rem;
+    padding-bottom: 0;
+}
+
+.training-gallery{
+    max-width: 1060px;
+    max-height: 403px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0;
+    margin: 0 auto;
+}
+
+.training-pic{
+    position: relative;
+    width: 33.33%;
+    height: auto;
+}
+
+.training-pic img{
+    width: 100%;
+    height: 201.5px;
+    display: block;
+    filter: blur(.25px);
+}
+
+.training-pic::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 1;
+    filter: blur(2px); /* Blur the color overlay */
+}
+
+.text-overlay {
+    position: absolute;
+    top: 60%; /* Position the text in the center vertically */
+    left: 40%; /* Position the text in the center horizontally */
+    transform: translate(-50%, -50%); /* Adjust the position to the exact center */
+    font-size: 1rem; /* Font size */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4); /* Optional: add a text shadow for better readability */
+    padding: 2px; /* Optional: add padding around the text */
+    border-radius: 5px; /* Optional: round the corners of the background */
+}
+
+/* Different colored blur effects */
+
+.blur-red::before {
+    background: rgb(126, 250, 229, 0.5); /* Skyblue overlay */
+}
+
+.blur-blue::before {
+    background: rgba(255, 70, 70, 0.5); /* Red overlay */
+}
+
+.blur-green::before {
+    background: rgba(110, 108, 106, 0.5); /* Gray overlay */
+}
+
+.blur-yellow::before {
+    background: rgba(29, 29, 31, 0.5); /* Black overlay */
+}
+
+.blur-purple::before {
+    background: rgba(163, 245, 23, 0.5); /* Green overlay */
+}
+
+.blur-orange::before {
+    background: rgba(165, 187, 242, 0.5); /* Blue overlay */
+}
+
+/* BMI Calculator Styles */
+
+.sec4{
+    margin-top: 0;
+    padding-top: 1rem;
+    padding-bottom: 7rem;
+    background-color: #000000;
+}
+
+.bmi-container{
+    background-color: #222222;
+    width: 90rem;
+    height: 30rem;
+}
+
+.bmi-content{
+    margin: 0 auto;
+    width: 41.9rem;
+    height: 7.5rem;
+    padding-bottom: 1.4rem;
+}
+
+.bmi-title{
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 0;
+}
+
+.bmi-description{
+    font-size: 1.25rem;
+    font-weight: 400;
+}
+
+.bmi-table{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+    margin-top: 3.75rem;
+}
+
+.bmi-calculator-chart{
+    margin-left: 11rem;
+    width: 100%;
+}
+
+.chart-title{
+    font-size: 1.75rem;
+    font-weight: 700;
+    padding-top: 1rem;
+}
+
+table{
+    margin-top: 2rem;
+    margin-left: 0;
+    max-width: 330px;
+    max-height: 300px;
+    border-collapse: collapse;
+}
+
+th{
+    text-align: start;
+}
+
+th, td{
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    padding: 15px;
+    font-size: 1rem;
+}
+.calculate-bmi{
+    max-width: 577px;
+    max-height: 386px;
+    padding-top: 1rem;
+}
+
+.calc-title{
+    font-size: 1.75rem;
+    font-weight: 700;
+    margin-bottom: 0;
+}
+
+.calc-description{
+    font-size: 1.2rem;
+    font-weight: 400;
+    margin-bottom: 0;
+}
+
+.form1{
+    margin-top: 2.2rem;
+    max-width: 577px;
+    max-height: 168px;
+}
+
+#bmi-form{
+    display: block;
+}
+
+form input{
+    margin-bottom: 10px;
+    padding: 10px 0;
+    text-align: center;
+    max-width: 290px;
+    max-height: 50px;
+    background-color: rgba(255, 255, 255, 0.1);
+    color: rgba(255, 255, 255, 0.6);
+    border-radius: 8px;
+    border: none;
+    font-size: 1rem;
+}
+
+.f-item select{
+    padding: 10px 74px;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.1);
+    color: rgba(255, 255, 255, 0.6);
+    border-radius: 8px;
+    border: none;
+    font-size: 1rem;
+}
+
+select{
+    margin-bottom: 20px;
+    padding: 12px 107px;
+    background-color: rgba(255, 255, 255, 0.1);
+    color: rgba(255, 255, 255, 0.6);
+    border-radius: 8px;
+    border: none;
+    font-size: 1rem;
+}
+
+.btn-form{
+    background-color: rgba(230, 83, 60, 1);
+    color: rgba(255, 255, 255, 1);
+    border-radius: 42px;
+    border: none;
+    font-size: 1.2rem;
+    font-weight: 600;
+    padding: 12px 60px;
+}
+
+/* Unique Section Design */
+
+.unique{
+    margin-top: 0;
+    padding-top: 1rem;
+    padding-bottom: 7rem;
+    background-color: #000000;
+}
+
+.pricing-content{
+    width: 41.9rem;
+    height: 7.5rem;
+    padding-bottom: 9rem;
+    margin: 0 auto;
+}
+
+.pri-title{
+    font-size: 3rem;
+    font-weight: 700;
+    text-align: center;
+}
+
+.pricing-card-container{
+    background-color: #222222;
+    width: 90rem;
+    height: 44rem;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding-top: 7rem;
+}
+
+.u-hori{
+    border: 2px solid rgba(255, 255, 255, 0.1);
+    fill: rgba(255, 255, 255, 0.1);
+    margin-right: 7rem;
+    margin-left: 7rem;
+}
+
+/* Card One */
+
+.card1{
+    border: 3px solid rgba(255, 255, 255, 1);
+    border-radius: 18px;
+    fill: rgba(255, 255, 255, 1);
+    margin-left: 6rem;
+    margin-right: 2rem;
+    padding-top: 1rem;
+    padding-left: 2rem;
+    padding-right: .5rem;
+    padding-bottom: 0;
+    max-width: 28rem;
+    max-height: 37rem;
+}
+
+.card1-cont{
+    margin-right: 2rem;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.card1-title1{
+    font-size: 1.75rem;
+    font-weight: 600;
+    margin-bottom: 0;
+}
+
+.card1-title2{
+    font-size: 1.85rem;
+    font-weight: 600;
+    margin-bottom: 4rem;
+
+}
+
+.card1-items{
+    font-size: 1rem;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.card1-items span{
+    margin-right: 5px;
+}
+
+.card1-items i{
+    font-size: 1.1rem;
+    font-weight: 700;
+    margin-right: 15px;
+}
+
+/* Card Two */
+
+
+.card2{
+    border: 3px solid rgba(255, 255, 255, 1);
+    border-radius: 18px;
+    fill: rgba(255, 255, 255, 1);
+    margin-left: 2rem;
+    margin-right: 0;
+    padding-top: 1rem;
+    padding-left: 2rem;
+    padding-right: .5rem;
+    padding-bottom: 0;
+    max-width: 21rem;
+    max-height: 37rem;
+}
+
+.card2-cont{
+    margin-right: 2rem;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.card2-title1{
+    font-size: 1.75rem;
+    font-weight: 600;
+    margin-bottom: 0;
+}
+
+.card2-title2{
+    font-size: 1.85rem;
+    font-weight: 600;
+    margin-bottom: 6rem;
+
+}
+
+.card2-items{
+    font-size: 1rem;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.card2-items span{
+    margin-right: 5px;
+}
+
+.card2-items i{
+    font-size: 1.1rem;
+    font-weight: 700;
+    margin-right: 15px;
+}
+
+/* Card Three */
+
+.card3{
+    border: 3px solid rgba(255, 255, 255, 1);
+    border-radius: 18px;
+    fill: rgba(255, 255, 255, 1);
+    margin-left: 0;
+    margin-right: 7rem;
+    padding-top: 1rem;
+    padding-left: 2rem;
+    padding-right: .5rem;
+    padding-bottom: 0;
+    max-width: 24rem;
+    max-height: 37rem;
+}
+
+.card3-cont{
+    margin-right: 2rem;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.card3-title1{
+    font-size: 1.75rem;
+    font-weight: 600;
+    margin-bottom: 0;
+}
+
+.card3-title2{
+    font-size: 1.85rem;
+    font-weight: 600;
+    margin-bottom: 4rem;
+}
+
+.card3-items{
+    font-size: 1rem;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.card3-items span{
+    margin-right: 5px;
+}
+
+.card3-items i{
+    font-size: 1.1rem;
+    font-weight: 700;
+    margin-right: 15px;
+}
+
+
+/* Meet Our Team Styles */
+
+.sec5{
+    padding-top: 3.5rem;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-bottom: 10rem;
+    background-color: #000000;
+}
+
+.team-meet-content{
+    max-width: 671px;
+    max-height: 120px;
+    margin: 0 auto;
+    padding-bottom: 5rem;
+}
+
+.team-meet-title{
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.team-meet-description{
+    font-size: 1.25rem;
+    font-weight: 400;
+}
+
+.card5 {
+    width: 72rem;
+    height: 49rem;
+    background-color: #191919;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 18px;
+    margin: 0 auto;
+    padding: 32px 25px 12px 25px;
+}
+
+.card5-content {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+}
+
+.image-container5 {
+    position: relative;
+    width: 100%;
+    height: 0;
+    padding-bottom: 100%; /* This makes the container square */
+}
+
+.image-container5 img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 4px;
+    object-fit: cover;
+}
+
+.image-data {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    text-align: left;
+    border-radius: 0 0 4px 4px;
+    padding-left: 20px;
+}
+
+.name{
+    margin-bottom: 0;
+    padding-bottom: 0;
+    font-size: 1.25rem;
+    font-weight: 700;
+}
+
+.job{
+    margin-top: 10px;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+/* Footer Styles */
+
+.sec6{
+    margin-top: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    background-color: #000000;
+}
+
+.material{
+    width: 90rem;
+    height: 27rem;
+    background-color: rgba(255, 255, 255, 0.1);
+    padding-top: 1.5rem;
+}
+
+.foot-item{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding-bottom: 3.5rem;
+    gap: 7rem;
+}
+
+.nt{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-left: 0;
+    padding-right: 4rem;
+    padding-left: 0;
+}
+
+.fitness-data1{
+    padding-left: 8rem;
+
+}
+
+.fit-title{
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 0;
+}
+
+.fit-description{
+    font-size: 1.2rem;
+    font-weight: 400;
+    margin-top: 10px;
+    max-width: 500px;
+    max-height: 70px;
+}
+
+.item-data{
+    padding-top: 2.4rem;
+}
+
+.fit-title2{
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.lis2{
+    padding-bottom: 1rem;
+}
+
+.lis2a{
+    margin-bottom: 20px;
+}
+
+.list2 li{
+    list-style: none;
+    text-decoration: none;
+}
+
+.feature-data{
+    padding-top: 2.4rem;
+
+}
+
+.fit-title3{
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.lis3{
+    padding-bottom: 1rem;
+}
+
+.lis3a{
+    margin-bottom: 20px;
+}
+
+.list3 li{
+    list-style: none;
+    text-decoration: none;
+}
+
+.hori{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.hori-line{
+    justify-content: center;
+    align-items: center;
+    border: 2px solid rgba(255, 255, 255, 0.1);
+    fill: rgba(255, 255, 255, 0.1);
+    margin-right: 6rem;
+    margin-left: 6.4rem;
+}
+
+.copyright{
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+
+/* Responsive Media Query */
+
+@media screen and (max-width: 576px) {
+
+
+    .navbar{
+        max-width: 90rem;
+        justify-content: space-between;
+        align-items: center;
+        margin-right: 25rem;
+        padding-top: 1rem;
+        gap: 25rem;
+    }
+    
+    .brand{
+        color: rgba(230, 83, 60, 1);
+        font-weight: 800;
+        font-size: 2.4rem;
+        margin-left: 8rem;
+    }
+
+    .nav-links {
+        display: none;
+    }
+
+    .hamburger {
+        display: block;
+        width: 3rem;
+        height: 3rem;
+        color: rgba(255, 255, 255, 1);
+        cursor: pointer;
+    }
+
+    .bg-gradient{
+        background: linear-gradient(to right, #1e1e1e, #393939);
+        width: 90rem;
+        height: 80.7rem;
+    }
+
+    .banner {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+        background: linear-gradient(to right, #1e1e1e, #393939);
+        }
+    
+    .banner-title{
+        
+        max-width: 352px;
+        max-height: 335px;
+        margin-bottom: 0;
+        font-size: 3rem;
+        font-weight: 700;
+        letter-spacing: 2px;
+    }
+    
+    .banner-description{
+        margin-top: 2.8rem;
+        margin-bottom: 4.5rem;
+        font-size: 1.25rem;
+        font-weight: 400;
+        max-width: 352px;
+        max-height: 335px;
+    }
+
+    .sec1 {
+            margin-top: 0;
+            padding-top: 3.5rem;
+            background-color: #000000;
+            width: 100%;
+            height: 110rem;
+        }
+
+    .habit-content {
+            margin: 0 auto;
+            padding: 0;
+            text-align: center;
+            width: 20rem;
+            height: 1.5rem;
+        }
+
+    .habit-title {
+            margin-top: 0;
+            margin-bottom: 0;
+            padding-top: 6.5rem;
+            font-size: 2rem;
+            font-weight: 700;
+        }
+        
+    .habit-description{
+            margin-top: 0;
+            padding-top: 1rem;
+            font-size: 1.25rem;
+            font-weight: 400;
+        }
+        
+    .habit-container {
+            display: grid;
+            grid-template-columns: 1fr;
+            width: 14.43rem;
+            height: 17.13rem;
+            gap: 2.5rem;
+            margin: 0 auto;
+            padding-top: 20rem;
+            padding-bottom: 0;
+        }
+
+    .sec2{
+            padding-top: 5rem;
+            padding-bottom: 5rem;
+            margin-bottom: 0;
+            background-color: #000000;
+        
+        }
+
+    .run-card {
+        width: 22rem;
+        height: 33rem;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin: 0 auto;
+        border-radius: 18px;
+        gap: 2rem;
+
+        }
+
+    .content{
+            width: 20rem;
+            height: 16.5rem;
+            padding-top: 0;
+            padding-bottom: 0;
+            margin-left: 1rem;
+            margin-right: 1rem;
+        
+        }
+        
+    .run-title{
+            font-size: 2rem;
+            font-weight: 700;
+            margin-top: 3rem;
+            margin-bottom: 0;
+        }
+        
+        .run-description{
+            font-size: 1rem;
+            font-weight: 400;
+            margin-top: 1rem;
+            margin-bottom: 1rem;
+            
+        }
+        
+        .running{
+            max-width: 287px;
+            max-height: 170px;
+            border-radius: 18px;
+            margin-top: 2.2rem;
+            margin-bottom: 2rem;
+            margin-right: 1.4rem;
+            margin-left: 1.4rem;
+        
+        }
+
+        .sec3{
+            margin-top: 0;
+            padding-top: 2px;
+            padding-bottom: 23rem;
+            background-color: #000000;
+        }
+
+        .training-content{
+            max-width: 353px;
+            max-height: 162px;
+            margin: 0 auto;
+            padding-bottom: 3rem;
+        }
+
+        .training-title{
+            font-size: 2rem;
+            font-weight: 700;
+            padding-top: 2.5rem;
+            padding-bottom: 0;
+            margin-bottom: 0;
+        }
+        
+        .training-description{
+            font-size: 1rem;
+            font-weight: 400;
+            padding-bottom: 0;
+            margin-bottom: 0;
+        }
+
+        .training-gallery{
+            max-width: 550px;
+            max-height: 300px;
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 0;
+            text-align: center;
+            justify-content: center;
+            align-items: center;
+            margin-top: 0;
+        }
+        
+        .training-pic{
+            position: relative;
+            width: 100%;
+            height: auto;
+        }
+
+        .training-pic img{
+        width: 100%;
+        height: 200px;
+        display: block;
+        filter: blur(.25px);
+        }
+
+        .bmi-content{
+            margin: 0 auto;
+            max-width: 400px;
+            max-height: 130px;
+            padding-bottom: 1.4rem;
+        }
+
+        .bmi-title{
+            font-size: 2rem;
+            font-weight: 700;
+            padding-top: 1rem;
+            margin-bottom: 0;
+        }
+
+        .bmi-container{
+            background-color: #222222;
+            width: 35rem;
+            height: 55rem;
+            margin: 0 auto;
+        }
+
+        .bmi-table{
+            display: flex;
+            flex-direction: column;
+            gap: 2rem;
+            margin-top: 3.75rem;
+        }
+
+        .bmi-calculator-chart{
+            margin-left: 6.5rem;
+            width: 100%;
+        }
+
+        .chart-title{
+            font-size: 1.5rem;
+            font-weight: 700;
+            padding-top: 2.5rem;
+        }
+
+        .calculate-bmi{
+            max-width: 354px;
+            max-height: 395px;
+            padding-top: .5rem;
+            margin-left: 6.5rem;
+        }
+
+        .calc-title{
+            font-size: 1.5rem;
+            font-weight: 700;
+            margin-bottom: 0;
+        }
+
+        .form1{
+            margin-top: 2.2rem;
+            max-width: 353px;
+            max-height: 168px;
+        }
+
+        #bmi-form{
+            display: block;
+        }
+        
+        form input{
+            margin-bottom: 10px;
+            padding: 10px 0;
+            text-align: center;
+            max-width: 170.5px;
+            max-height: 48px;
+            background-color: rgba(255, 255, 255, 0.1);
+            color: rgba(255, 255, 255, 0.6);
+            border-radius: 8px;
+            border: none;
+            font-size: 1rem;
+        }
+        
+        .f-item select{
+            padding: 13px 62px;
+            text-align: center;
+            background-color: rgba(255, 255, 255, 0.1);
+            color: rgba(255, 255, 255, 0.6);
+            border-radius: 8px;
+            border: none;
+            font-size: 1rem;
+        }
+        
+        select{
+            margin-bottom: 20px;
+            padding: 13px 82px;
+            background-color: rgba(255, 255, 255, 0.1);
+            color: rgba(255, 255, 255, 0.6);
+            border-radius: 8px;
+            border: none;
+            font-size: 1rem;
+        }
+        
+        .btn-form{
+            background-color: rgba(230, 83, 60, 1);
+            color: rgba(255, 255, 255, 1);
+            border-radius: 42px;
+            border: none;
+            font-size: 1.2rem;
+            font-weight: 600;
+            padding: 12px 60px;
+        }
+
+        
+    .sec5{
+        padding-top: .0025rem;
+        margin-top: 0;
+        padding-bottom: 9rem;
+        background-color: #000000;
+    }
+
+    .team-meet-content{
+        max-width: 400px;
+        max-height: 150px;
+        margin: 0 auto;
+        padding-top: 5rem;
+        padding-bottom: 5rem;
+    }
+
+    .team-meet-title{
+        margin-top: 0;
+        margin-bottom: 0;
+        font-size: 2rem;
+        font-weight: 700;
+    }
+
+    .team-meet-description{
+        font-size: 1.25rem;
+        font-weight: 400;
+    }
+
+    .card5 {
+        max-width: 450px;
+        max-height: 2000px;
+        background-color: #191919;
+        border: 1px solid rgba(0, 0, 0, 0.2);
+        border-radius: 18px;
+        margin: 0 auto;
+        padding-bottom: 123rem;
+    }
+
+    .card5-content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+        gap: 0;
+    }
+
+    .image-container5 {
+        position: relative;
+        width: 100%;
+        height: auto;
+        padding-bottom: 100%; /* This makes the container square */
+    }
+
+    .image-container5 img {
+        position: absolute;
+        top: 10%;
+        left: -0.5%;
+        width: 100%;
+        height: 90%;
+        border-radius: 4px;
+        object-fit: cover;
+    }
+
+    .image-data {
+        position: absolute;
+        bottom: 5%;
+        left: -0.5%;
+        width: 100%;
+        text-align: left;
+        border-radius: 0 0 4px 4px;
+        padding-left: 25px;
+    }
+
+    .name{
+        margin-bottom: 0;
+        padding-bottom: 0;
+        font-size: 1.5rem;
+        font-weight: 700;
+    }
+
+    .job{
+        margin-top: 10px;
+        font-size: 1.25rem;
+        font-weight: 600;
+    }
+
+    .sec6{
+        margin-top: 0;
+        padding-top: 0;
+        padding-bottom: 0;
+        background-color: #000000;
+    }
+    
+    .material{
+        width: 90rem;
+        height: 65rem;
+        background-color: rgba(255, 255, 255, 0.1);
+        padding-top: 1rem;
+    }
+
+    .foot-item{
+        display: grid;
+        grid-template-columns: 1fr;
+        padding-bottom: 3.5rem;
+    }
+    
+    .nt{
+        display: grid;
+        grid-template-columns: 1fr;
+        margin-left: 33rem;
+        margin-top: 0;
+        padding-right: 4rem;
+        padding-left: 0;
+    }
+    
+    .fitness-data1{
+        padding-left: 8rem;
+        margin-left: 27rem;
+        margin-top: 3rem;
+    
+    }
+    
+    .fit-title{
+        font-size: 3rem;
+        font-weight: 700;
+        margin-bottom: 0;
+    }
+    
+    .fit-description{
+        font-size: 1.25rem;
+        font-weight: 400;
+        margin-top: 10px;
+        max-width: 500px;
+        max-height: 70px;
+        margin-bottom: 0;
+        padding-bottom: 0;
+    }
+    
+    .item-data{
+        padding-top: 0;
+        margin-top: 0;
+    }
+    
+    .fit-title2{
+        font-size: 2rem;
+        font-weight: 700;
+    }
+    
+    .feature-data{
+        padding-top: 0;
+        margin-top: 0;
+    
+    }
+    
+    .fit-title3{
+        font-size: 2rem;
+        font-weight: 700;
+        margin-top: 0;
+        padding-top: 0;
+    }
+    
+    .hori{
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    
+    .hori-line{
+        justify-content: center;
+        align-items: center;
+        border: 2px solid rgba(255, 255, 255, 0.1);
+        fill: rgba(255, 255, 255, 0.1);
+        margin-right: 15rem;
+        margin-left: 15rem;
+    }
+    
+    .copyright{
+        font-size: 1.25rem;
+        font-weight: 400;
+    }
+    
+    .unique{
+        margin-top: 0;
+        padding-top: 1rem;
+        padding-bottom: 12rem;
+        background-color: #000000;
+    }
+
+    .pricing-content{
+        width: 41.9rem;
+        height: 7.5rem;
+        padding-bottom: 8rem;
+        margin: 0 auto;
+    }
+
+    .pri-title{
+        font-size: 3rem;
+        font-weight: 700;
+        text-align: center;
+    }
+
+    .pricing-card-container{
+        background-color: #222222;
+        width: 48rem;
+        height: 120rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+        padding-top: 0;
+    }
+
+    .u-hori{
+        border: 3px solid rgba(255, 255, 255, 0.1);
+        fill: rgba(255, 255, 255, 0.1);
+        margin-right: 7rem;
+        margin-left: 7rem;
+    }
+
+    /* Card One */
+
+    .card1{
+        border: 3px solid rgba(255, 255, 255, 1);
+        border-radius: 18px;
+        fill: rgba(255, 255, 255, 1);
+        margin-left: 6rem;
+        margin-right: 2rem;
+        margin-bottom: 4rem;
+        padding-top: 1rem;
+        padding-left: 2rem;
+        padding-right: .5rem;
+        padding-bottom: 0;
+        max-width: 28rem;
+        max-height: 37rem;
+    }
+
+    .card1-cont{
+        margin-right: 2rem;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .card1-title1{
+        font-size: 1.75rem;
+        font-weight: 600;
+        margin-bottom: 0;
+    }
+
+    .card1-title2{
+        font-size: 1.85rem;
+        font-weight: 600;
+        margin-bottom: 4rem;
+
+    }
+
+    .card1-items{
+        font-size: 1rem;
+        font-weight: 400;
+        margin-bottom: 20px;
+    }
+
+    .card1-items span{
+        margin-right: 5px;
+    }
+
+    .card1-items i{
+        font-size: 1.1rem;
+        font-weight: 700;
+        margin-right: 15px;
+    }
+
+    /* Card Two */
+
+
+    .card2{
+        border: 3px solid rgba(255, 255, 255, 1);
+        border-radius: 18px;
+        fill: rgba(255, 255, 255, 1);
+        margin-left: 2rem;
+        margin-right: 0;
+        margin-bottom: 4rem;
+        padding-top: 1rem;
+        padding-left: 2rem;
+        padding-right: .5rem;
+        padding-bottom: 0;
+        max-width: 28rem;
+        max-height: 37rem;
+    }
+
+    .card2-cont{
+        margin-right: 2rem;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .card2-title1{
+        font-size: 1.75rem;
+        font-weight: 600;
+        margin-bottom: 0;
+    }
+
+    .card2-title2{
+        font-size: 1.85rem;
+        font-weight: 600;
+        margin-bottom: 4rem;
+
+    }
+
+    .card2-items{
+        font-size: 1rem;
+        font-weight: 400;
+        margin-bottom: 20px;
+    }
+
+    .card2-items span{
+        margin-right: 5px;
+    }
+
+    .card2-items i{
+        font-size: 1.1rem;
+        font-weight: 700;
+        margin-right: 15px;
+    }
+
+    /* Card Three */
+
+    .card3{
+        border: 3px solid rgba(255, 255, 255, 1);
+        border-radius: 18px;
+        fill: rgba(255, 255, 255, 1);
+        margin-left: 8.5rem;
+        margin-right: 7rem;
+        padding-top: 1rem;
+        padding-left: 2rem;
+        padding-right: .5rem;
+        padding-bottom: 0;
+        max-width: 28rem;
+        max-height: 37rem;
+    }
+
+    .card3-cont{
+        margin-right: 2rem;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .card3-title1{
+        font-size: 1.75rem;
+        font-weight: 600;
+        margin-bottom: 0;
+    }
+
+    .card3-title2{
+        font-size: 1.85rem;
+        font-weight: 600;
+        margin-bottom: 4rem;
+    }
+
+    .card3-items{
+        font-size: 1rem;
+        font-weight: 400;
+        margin-bottom: 20px;
+    }
+
+    .card3-items span{
+        margin-right: 5px;
+    }
+
+    .card3-items i{
+        font-size: 1.1rem;
+        font-weight: 700;
+        margin-right: 15px;
+    }
+
+
+}
+
+
+
+
+
+
+@media screen and (min-width: 577px) and (max-width: 992px) {
+
+    .bg-gradient{
+        background: linear-gradient(to right, #1e1e1e, #393939);
+        width: 90rem;
+        height: 80.7rem;
+    }
+
+    .banner {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+        background: linear-gradient(to right, #1e1e1e, #393939);
+        }
+    
+    .banner-title{
+        
+        max-width: 599px;
+        max-height: 282px;
+        margin-bottom: 0;
+        font-size: 3rem;
+        font-weight: 700;
+        letter-spacing: 2px;
+    }
+    
+    .banner-description{
+        margin-top: 2.8rem;
+        margin-bottom: 4.5rem;
+        font-size: 1.25rem;
+        font-weight: 400;
+        max-width: 599px;
+        max-height: 48px;
+    }
+    
+    .image-container{
+        position: relative;
+        display: inline-block;
+    }
+
+    .banner-image{
+        margin-right: 3rem;
+        margin-top: 0;
+        margin-bottom: 0;
+        max-width: 434px;
+        max-height: 582px;
+    }
+
+    .sec1 {
+            margin-top: 0;
+            background-color: #000000;
+            width: 100%;
+            height: 65rem;
+            
+        }
+
+    .habit-content {
+            margin: 0 auto;
+            padding: 0;
+            text-align: center;
+            width: 29.75rem;
+            height: 7.5rem;
+        }
+
+    .habit-title {
+            margin-top: 0;
+            margin-bottom: 0;
+            padding-top: 6.5rem;
+            font-size: 3rem;
+            font-weight: 700;
+        }
+
+    .habit-description {
+            margin-top: 0;
+            padding-top: 1rem;
+            font-size: 1.25rem;
+            font-weight: 400;
+        }
+
+    .habit-container {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            width: 14.43rem;
+            height: 17.13rem;
+            gap: 2.5rem;
+            margin: 0 auto;
+            justify-content: center;
+            align-items: center;
+            padding-top: 12rem;
+            padding-bottom: 0;
+        }
+
+    .sec2{
+            padding-top: 5rem;
+            padding-bottom: 5rem;
+            background-color: #000000;
+        }
+        
+    .run-card{
+            background-color: #222222;
+            width: 58rem;
+            height: 25rem;
+            margin: 0 auto;
+            border-radius: 18px;
+            border: none;
+            gap: 5rem;
+        }
+        
+    .content{
+            width: 28rem;
+            height: 18rem;
+            padding-top: 0;
+            padding-bottom: 0;
+            margin-top: 0;
+            margin-left: 4rem;
+        }
+        
+    .run-title{
+            font-size: 3rem;
+            font-weight: 700;
+            margin-top: 2.2rem;
+            margin-bottom: 0;
+        }
+        
+    .run-description{
+            font-size: 1.25rem;
+            font-weight: 400;
+            margin-top: 1rem;
+            margin-bottom: 1.5rem;
+        }
+        
+    .running{
+            max-width: 366px;
+            max-height: 312px;
+            border-radius: 18px;
+            margin-top: 3.5rem;
+            margin-bottom: 2rem;
+            margin-right: 1.7rem;
+        }
+
+        
+        .sec3{
+            margin-top: 0;
+            padding-top: 2px;
+            padding-bottom: 8rem;
+            background-color: #000000;
+        }
+
+        .training-content{
+            max-width: 671px;
+            max-height: 120px;
+            margin: 0 auto;
+            padding-bottom: 3rem;
+        }
+
+        .training-title{
+            font-size: 3rem;
+            font-weight: 700;
+            padding-top: 2.5rem;
+            padding-bottom: 0;
+            margin-bottom: 0;
+        }
+        
+        .training-description{
+            font-size: 1.25rem;
+            font-weight: 400;
+            padding-bottom: 0;
+            margin-bottom: 0;
+        }
+
+        .training-gallery{
+            max-width: 684px;
+            max-height: 403px;
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 0;
+            text-align: center;
+            justify-content: center;
+            align-items: center;
+            margin-top: 3rem;
+        }
+        
+        .training-pic{
+            position: relative;
+            width: 100%;
+            height: auto;
+        }
+
+        .training-pic img{
+        width: 100%;
+        height: 205px;
+        display: block;
+        filter: blur(.25px);
+        }
+
+        .bmi-content{
+            margin: 0 auto;
+            max-width: 595px;
+            max-height: 120px;
+            padding-bottom: 1.3rem;
+        }
+
+        .bmi-title{
+            font-size: 3rem;
+            font-weight: 700;
+            padding-top: 1.5rem;
+            margin-bottom: 0;
+        }
+
+        .bmi-description{
+            font-size: 1.5rem;
+            font-weight: 400;
+        }
+
+        .bmi-container{
+            background-color: #222222;
+            width: 40rem;
+            height: 58rem;
+            margin: 0 auto;
+        }
+
+        .bmi-table{
+            display: flex;
+            flex-direction: column;
+            gap: 2rem;
+            margin-top: 3.75rem;
+        }
+
+        .bmi-calculator-chart{
+            margin-left: 6.5rem;
+            width: 100%;
+        }
+
+        .chart-title{
+            font-size: 1.5rem;
+            font-weight: 700;
+            padding-top: 2.5rem;
+        }
+
+        .calculate-bmi{
+            max-width: 684px;
+            max-height: 390px;
+            padding-top: .5rem;
+            margin-left: 6.5rem;
+        }
+
+        .calc-title{
+            font-size: 1.5rem;
+            font-weight: 700;
+            margin-bottom: 0;
+        }
+
+        .form1{
+            margin-top: 2.2rem;
+            max-width: 684px;
+            max-height: 175px;
+        }
+
+        #bmi-form{
+            display: block;
+        }
+        
+        form input{
+            margin-bottom: 10px;
+            padding: 10px 0;
+            text-align: center;
+            max-width: 336px;
+            max-height: 48px;
+            background-color: rgba(255, 255, 255, 0.1);
+            color: rgba(255, 255, 255, 0.6);
+            border-radius: 8px;
+            border: none;
+            font-size: 1rem;
+        }
+        
+        .f-item select{
+            padding: 13px 73px;
+            text-align: center;
+            background-color: rgba(255, 255, 255, 0.1);
+            color: rgba(255, 255, 255, 0.6);
+            border-radius: 8px;
+            border: none;
+            font-size: 1rem;
+        }
+        
+        select{
+            margin-bottom: 20px;
+            padding: 13px 104px;
+            background-color: rgba(255, 255, 255, 0.1);
+            color: rgba(255, 255, 255, 0.6);
+            border-radius: 8px;
+            border: none;
+            font-size: 1rem;
+        }
+        
+        .btn-form{
+            background-color: rgba(230, 83, 60, 1);
+            color: rgba(255, 255, 255, 1);
+            border-radius: 42px;
+            border: none;
+            font-size: 1.2rem;
+            font-weight: 600;
+            padding: 12px 60px;
+        }
+
+        .sec5{
+            padding-top: .0025rem;
+            margin-top: 0;
+            padding-top: 5rem;
+            padding-bottom: 10rem;
+            background-color: #000000;
+        }
+        
+        .team-meet-content{
+            max-width: 700px;
+            max-height: 150px;
+            margin: 0 auto;
+            padding-bottom: 5rem;
+        }
+        
+        .team-meet-title{
+            margin-top: 0;
+            margin-bottom: 0;
+            font-size: 3rem;
+            font-weight: 700;
+        }
+        
+        .team-meet-description{
+            font-size: 1.5rem;
+            font-weight: 400;
+        }
+        
+        
+    .card5 {
+        width: 72rem;
+        height: 49rem;
+        background-color: #191919;
+        border: 1px solid rgba(0, 0, 0, 0.2);
+        border-radius: 18px;
+        margin: 0 auto;
+        padding: 32px 25px 12px 25px;
+    }
+
+    .card5-content {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 5px;
+    }
+
+    .image-container5 {
+        position: relative;
+        width: 100%;
+        height: auto;
+        padding-bottom: 100%; /* This makes the container square */
+        margin: 0 auto;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .image-container5 img {
+        position: absolute;
+        top: 4.5%;
+        left: 1.5%;
+        max-width: 370px;
+        max-height: 350px;
+        border-radius: 4px;
+        object-fit: cover;
+    }
+
+    .image-data {
+        position: absolute;
+        bottom: 10%;
+        left: 10%;
+        width: 100%;
+        text-align: left;
+        padding-left: 20px;
+    }
+
+.name{
+        margin-bottom: 0;
+        padding-bottom: 0;
+        font-size: 1.25rem;
+        font-weight: 700;
+    }
+
+    .job{
+        margin-top: 10px;
+        font-size: 1rem;
+        font-weight: 400;
+    }
+
+    .sec6{
+        margin-top: 0;
+        padding-top: 0;
+        padding-bottom: 0;
+        background-color: #000000;
+    }
+    
+    .material{
+        width: 90rem;
+        height: 50rem;
+        background-color: rgba(255, 255, 255, 0.1);
+        padding-top: 1rem;
+    }
+    
+    .foot-item{
+        display: flex;
+        flex-direction: column;
+        margin-left: 2.5rem;
+        
+    }
+    
+    .nt{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        padding-top: 3rem;
+        margin-left: 0;
+        gap: 5.5rem;
+    }
+
+    .fitness-data1{
+        max-width: 470px;
+        max-height: 150px;
+        margin-left: 7.5rem;
+    }
+    
+    .fit-title{
+        font-size: 4rem;
+        font-weight: 700;
+        margin-bottom: 5px;
+        margin-top: 0;
+        padding-top: 3rem;
+        
+    }
+    
+    .fit-description{
+        font-size: 1.25rem;
+        font-weight: 400;
+        margin-top: 0;
+        margin-bottom: 0;
+        max-width: 443px;
+        max-height: 72px;
+    }
+    
+    .item-data{
+        
+        margin-top: 0;
+        padding-left: 0;
+        margin: 0 auto;
+        
+    }
+    
+    .fit-title2{
+        font-size: 2rem;
+        font-weight: 700;
+    }
+
+    .feature-data{
+        padding-top: 0;
+        margin-top: 3rem;
+    
+    }
+
+    .hori{
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    
+    .hori-line{
+        justify-content: center;
+        align-items: center;
+        border: 2px solid rgba(255, 255, 255, 0.1);
+        fill: rgba(255, 255, 255, 0.1);
+        margin-right: 10rem;
+        margin-left: 10rem;
+    }
+    
+    .copyright{
+        font-size: 1.25rem;
+        font-weight: 400;
+    }
+
+    
+    .unique{
+        margin-top: 0;
+        padding-top: 1rem;
+        padding-bottom: 7rem;
+        background-color: #000000;
+    }
+
+    .pricing-content{
+        width: 41.9rem;
+        height: 7.5rem;
+        padding-bottom: 9rem;
+        margin: 0 auto;
+    }
+
+    .pri-title{
+        font-size: 3rem;
+        font-weight: 700;
+        text-align: center;
+    }
+
+    .pricing-card-container{
+        background-color: #222222;
+        width: 90rem;
+        height: 44rem;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        padding-top: 7rem;
+    }
+
+    .u-hori{
+        border: 2px solid rgba(255, 255, 255, 0.1);
+        fill: rgba(255, 255, 255, 0.1);
+        margin-right: 7rem;
+        margin-left: 7rem;
+    }
+
+    /* Card One */
+
+    .card1{
+        border: 3px solid rgba(255, 255, 255, 1);
+        border-radius: 18px;
+        fill: rgba(255, 255, 255, 1);
+        margin-left: 6rem;
+        margin-right: 2rem;
+        padding-top: 1rem;
+        padding-left: 2rem;
+        padding-right: .5rem;
+        padding-bottom: 0;
+        max-width: 28rem;
+        max-height: 37rem;
+    }
+
+    .card1-cont{
+        margin-right: 2rem;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .card1-title1{
+        font-size: 1.75rem;
+        font-weight: 600;
+        margin-bottom: 0;
+    }
+
+    .card1-title2{
+        font-size: 1.85rem;
+        font-weight: 600;
+        margin-bottom: 4rem;
+
+    }
+
+    .card1-items{
+        font-size: 1rem;
+        font-weight: 400;
+        margin-bottom: 20px;
+    }
+
+    .card1-items span{
+        margin-right: 5px;
+    }
+
+    .card1-items i{
+        font-size: 1.1rem;
+        font-weight: 700;
+        margin-right: 15px;
+    }
+
+    /* Card Two */
+
+
+    .card2{
+        border: 3px solid rgba(255, 255, 255, 1);
+        border-radius: 18px;
+        fill: rgba(255, 255, 255, 1);
+        margin-left: 2rem;
+        margin-right: 0;
+        padding-top: 1rem;
+        padding-left: 2rem;
+        padding-right: .5rem;
+        padding-bottom: 0;
+        max-width: 21rem;
+        max-height: 37rem;
+    }
+
+    .card2-cont{
+        margin-right: 2rem;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .card2-title1{
+        font-size: 1.75rem;
+        font-weight: 600;
+        margin-bottom: 0;
+    }
+
+    .card2-title2{
+        font-size: 1.85rem;
+        font-weight: 600;
+        margin-bottom: 6rem;
+
+    }
+
+    .card2-items{
+        font-size: 1rem;
+        font-weight: 400;
+        margin-bottom: 20px;
+    }
+
+    .card2-items span{
+        margin-right: 5px;
+    }
+
+    .card2-items i{
+        font-size: 1.1rem;
+        font-weight: 700;
+        margin-right: 15px;
+    }
+
+    /* Card Three */
+
+    .card3{
+        border: 3px solid rgba(255, 255, 255, 1);
+        border-radius: 18px;
+        fill: rgba(255, 255, 255, 1);
+        margin-left: 0;
+        margin-right: 7rem;
+        padding-top: 1rem;
+        padding-left: 2rem;
+        padding-right: .5rem;
+        padding-bottom: 0;
+        max-width: 24rem;
+        max-height: 37rem;
+    }
+
+    .card3-cont{
+        margin-right: 2rem;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .card3-title1{
+        font-size: 1.75rem;
+        font-weight: 600;
+        margin-bottom: 0;
+    }
+
+    .card3-title2{
+        font-size: 1.85rem;
+        font-weight: 600;
+        margin-bottom: 4rem;
+    }
+
+    .card3-items{
+        font-size: 1rem;
+        font-weight: 400;
+        margin-bottom: 20px;
+    }
+
+    .card3-items span{
+        margin-right: 5px;
+    }
+
+    .card3-items i{
+        font-size: 1.1rem;
+        font-weight: 700;
+        margin-right: 15px;
+    }
+
+}
